@@ -48,7 +48,7 @@ Add the facade to the alias array:
 
 ```php
 [
-    'Larawoo' => 'Ollywarren\Larawoo\Facades\Larawoo::class 
+    'Larawoo' => 'Ollywarren\Larawoo\Facades\Larawoo::class'
 ]
  ```
 
