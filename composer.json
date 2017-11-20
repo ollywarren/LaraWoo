@@ -1,0 +1,35 @@
+{
+    "name": "ollywarren/larawoo",
+    "description": "Provide a simple elegant wrapper around the Woocommerce APi Library from Automattic.",
+    "keywords": [],
+    "homepage": "http://github.com/ollywarren/larawoo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olly Warren",
+            "email": "olly@ollywarren.com"
+        }
+    ],
+    "require-dev":{},
+    "require":{
+        "phpunit/phpunit":"^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ollywarren\\Larawoo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ollywarren\\Larawoo\\LarawooServiceProvider"
+            ],
+
+            "facades": [
+                "Ollywarren\\Larawoo\\Facades\\Larawoo"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
