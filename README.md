@@ -1,7 +1,7 @@
 # LaraWoo!
 [![Total Downloads](https://poser.pugx.org/ollywarren/larawoo/downloads)](https://packagist.org/packages/ollywarren/larawoo)
 [![Latest Stable Version](https://poser.pugx.org/ollywarren/larawoo/v/stable)](https://packagist.org/packages/ollywarren/larawoo)
-[![License](https://poser.pugx.org/ollywarren/larawoo/license)](https://packagist.org/packages/ollywarren/larawoo
+[![License](https://poser.pugx.org/ollywarren/larawoo/license)](https://packagist.org/packages/ollywarren/larawoo)
 
 A Simple and Elegant Wrapper fro the Automattic WooCommerce PHP Library.
 
@@ -84,6 +84,7 @@ $results = Larawoo::get('customers');
 ```
 
 For a full breakdown of the available methods please see Automattic's Package Page for the library: 
+
 [WooCommerce API Library Packagist Package](https://packagist.org/packages/automattic/woocommerce)
 
 [WooCommerce API Documentation](http://woocommerce.github.io/woocommerce-rest-api-docs/?php#introduction)
