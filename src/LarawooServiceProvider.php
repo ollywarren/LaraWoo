@@ -24,6 +24,6 @@ class LarawooServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('LaraWoo', WooCommerceService::class);
+        $this->app->bind('Larawoo', WooCommerceService::class);
     }
 }
