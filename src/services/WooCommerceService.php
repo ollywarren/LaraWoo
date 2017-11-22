@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollywarren\LaraWoo\Services;
+namespace Ollywarren\Larawoo\Services;
 
 use Automattic\WooCommerce\Client;
 use BadMethodCallException;
