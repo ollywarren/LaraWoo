@@ -18,7 +18,7 @@ class WooCommerceService
 {
 	private $url;
 	private $consumer_key;
-    private $consumer_token;
+    private $consumer_secret;
     private $options;
     
     private $client;
@@ -30,9 +30,9 @@ class WooCommerceService
 	public function __construct()
 	{
         // Required Settings
-		$this->url              = config('larawoo.url');
-        $this->consumer_key     = config('larawoo.consumer_key');
-        $this->consumer_token   = config('larawoo.consumer_token');
+		$this->url               = config('larawoo.url');
+        $this->consumer_key      = config('larawoo.consumer_key');
+        $this->consumer_secret   = config('larawoo.consumer_secret');
 
         // Optional Settings
         $this->options = $this->setDefaultOptions();
@@ -41,7 +41,7 @@ class WooCommerceService
 		$this->client = new Client( 
             $this->url,
             $this->consumer_key,
-            $this->consumer_token,
+            $this->consumer_secret,
             $this->options
         );
 	}

@@ -25,7 +25,7 @@ Set the environment variables in your Apps .env file:
 ```
 LARAWOO_URL="<YOUR WOOCOMMERCE INSTALL URL>"
 LARAWOO_CONSUMER_KEY="<YOUR CONSUMER KEY>"
-LARAWOO_CONSUMER_TOKEN"<YOUR CONSUMER TOKEN>"
+LARAWOO_CONSUMER_SECRET="<YOUR CONSUMER SECRET>"
 ```
 
 Review the other avilable options in the documentation linked below and in the included larawoo configuration file.
@@ -65,7 +65,7 @@ Set the environment variables in your Apps .env file:
 ```
 LARAWOO_URL="<YOUR WOOCOMMERCE INSTALL URL>"
 LARAWOO_CONSUMER_KEY="<YOUR CONSUMER KEY>"
-LARAWOO_CONSUMER_TOKEN"<YOUR CONSUMER TOKEN>"
+LARAWOO_CONSUMER_SECRET="<YOUR CONSUMER SECRET>"
 ```
 
 ### Usage Instructions
