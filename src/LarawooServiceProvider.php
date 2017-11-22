@@ -3,8 +3,7 @@
 namespace Ollywarren\Larawoo;
 
 use Illuminate\Support\ServiceProvider;
-
-//Add Your Own Package Classes Here!!
+use Ollywarren\LaraWoo\Services\WooCommerceService;
 
 class LarawooServiceProvider extends ServiceProvider
 {
@@ -15,7 +14,7 @@ class LarawooServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([__DIR__.'/config/larawoo.php' => config_path('larawoo.php'),]);
     }
 
     /**
@@ -25,6 +24,6 @@ class LarawooServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('LaraWoo', WooCommerceService::class);
     }
 }
