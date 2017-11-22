@@ -3,7 +3,7 @@
 namespace Ollywarren\Larawoo;
 
 use Illuminate\Support\ServiceProvider;
-use Ollywarren\LaraWoo\Services\WooCommerceService;
+use Ollywarren\Larawoo\Services\WooCommerceService;
 
 class LarawooServiceProvider extends ServiceProvider
 {
