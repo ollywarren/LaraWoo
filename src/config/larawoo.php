@@ -3,7 +3,7 @@ return [
     // Required Settings
     'url'                           => env('LARAWOO_URL', 'https://github.com'),
     'consumer_key'                  => env('LARAWOO_CONSUMER_KEY', 'ABC123'),
-    'consumer_token'                => env('LARAWOO_CONSUMER_TOKEN', 'ABC123'),
+    'consumer_secret'                => env('LARAWOO_CONSUMER_SECRET', 'ABC123'),
 
     // Optional Configuration
     'options_wp_api'                => env('LARAWOO_OPT_WPAPI', true),
