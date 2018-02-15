@@ -7,11 +7,11 @@ use BadMethodCallException;
 
 /**
  * WooCommerce Service Class that 
- * wraps around the Automattic WooCOmmerce Base Class
- * exposing the same methods and atrributes.\DeepCopy\f002\A
+ * wraps around the Automattic WooC0mmerce Base Class
+ * exposing the same methods and atrributes.
  * 
  * @author Olly Warren
- * @version 1.0
+ * @version 2.0
  * @license MIT
  */
 class WooCommerceService
@@ -83,7 +83,7 @@ class WooCommerceService
      *
      * @return Array
      * @author Olly Warren
-     * @version 1.0
+     * @version 2.0
      * @license MIT
      */
     public function setDefaultOptions()

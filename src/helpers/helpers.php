@@ -1,8 +1,7 @@
 <?php
-if (!function_exists('larawoo')) {
+if ( ! function_exists('larawoo') ) {
     /**
-     * Get the Larawoo
-     *
+     * Get the LaraWoo Service Instance
      * @return \Ollywarren\Larawoo\LaraWooServiceProvider
      */
     function larawoo()
